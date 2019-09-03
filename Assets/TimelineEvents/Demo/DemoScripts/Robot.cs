@@ -2,6 +2,7 @@
 using Game.General.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Playables;
 
 namespace Tantawowa.Demo.DemoScripts
 {
@@ -67,13 +68,13 @@ namespace Tantawowa.Demo.DemoScripts
                     Agent.speed = 6f;
                     break;
                 case RobotState.Freedom:
-
+                    playableDirector.Pause();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("state", state, null);
             }
         }
-
+        public PlayableDirector playableDirector;
         private void Update()
         {
             Vector3 v = Camera.main.transform.position - transform.position;

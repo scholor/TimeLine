@@ -104,6 +104,12 @@
     <Compile Include="Assets\Cinemachine\PostFX\Editor\CinemachinePostProcessingEditor.cs" />
     <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+    <Compile Include="Assets\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
+    <Compile Include="Assets\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
+    <Compile Include="Assets\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
+    <Compile Include="Assets\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
+    <Compile Include="Assets\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
+    <Compile Include="Assets\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
     <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\Editor\TimelineEventDrawer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Project/TimeLine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
