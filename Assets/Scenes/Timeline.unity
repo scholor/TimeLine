@@ -292,7 +292,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &459434629
 GameObject:
@@ -598,7 +598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &878396644
 GameObject:
@@ -1085,7 +1085,7 @@ VideoPlayer:
   m_GameObject: {fileID: 1409739836}
   m_Enabled: 1
   m_VideoClip: {fileID: 32900000, guid: 84be74b2ddd38b5448dfd92eafe3ace0, type: 3}
-  m_TargetCameraAlpha: 1
+  m_TargetCameraAlpha: 0.0032788105
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 459434631}
   m_TargetTexture: {fileID: 0}
@@ -1175,7 +1175,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1417139825
 GameObject:
