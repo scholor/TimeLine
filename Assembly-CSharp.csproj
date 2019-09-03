@@ -153,16 +153,12 @@
     <Compile Include="Assets\DefaultPlayables\Video\VideoSchedulerPlayableBehaviour.cs" />
     <Compile Include="Assets\DefaultPlayables\Video\VideoScriptPlayableAsset.cs" />
     <Compile Include="Assets\DefaultPlayables\Video\VideoScriptPlayableTrack.cs" />
-    <Compile Include="Assets\TimelineEvents\Demo\DemoScripts\NavMeshFollower.cs" />
-    <Compile Include="Assets\TimelineEvents\Demo\DemoScripts\Robot.cs" />
-    <Compile Include="Assets\TimelineEvents\Demo\DemoScripts\UIManager.cs" />
-    <Compile Include="Assets\TimelineEvents\Demo\DemoScripts\UIType.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\Extensions\PrimitiveExtensions.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\EventInvocationInfo.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\TimelineEventBehaviour.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\TimelineEventClip.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\TimelineEventMixerBehaviour.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\TimelineEventTrack.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\EventBehaviour.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\EventClip.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\EventInvocationInfo.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\EventMixerBehaviour.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\EventTrack.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\Primitive\PrimitiveExtensions.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Project/TimeLine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

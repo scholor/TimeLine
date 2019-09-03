@@ -110,7 +110,7 @@
     <Compile Include="Assets\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
     <Compile Include="Assets\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
     <Compile Include="Assets\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
-    <Compile Include="Assets\TimelineEvents\Scripts\TimelineEvents\Editor\TimelineEventDrawer.cs" />
+    <Compile Include="Assets\Tools\Timeline.Extensions\Tinmeline.Events\Editor\EventDrawer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>F:/Project/TimeLine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
